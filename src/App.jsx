@@ -38,10 +38,10 @@ function App() {
       const newPos = position - 1;
       if (newPos >= 1) setPosition(newPos);
     } else if (direction === 'up') {
-      const newPos = position - 4;
+      const newPos = position - 5;
       if (newPos >= 1) setPosition(newPos);
     } else if (direction === 'down') {
-      const newPos = position + 4;
+      const newPos = position + 5;
       if (newPos <= 100) setPosition(newPos);
     }
   }
@@ -80,7 +80,7 @@ function App() {
 
 
   return (
-    <div className="flex justify-center pt-10">
+    <div className="flex justify-center pt-10 min-h-screen bg-gray-300">
       <LeftControl handleDirection={handleDirection} />
       {myPokeSelection.length && computerPokeSelection.length ? (
         <GameScreen myPokemon={myPokeSelection} computerPokemon={computerPokeSelection} />

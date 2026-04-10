@@ -2,7 +2,7 @@ import React from 'react'
 
 function RightControl({handleSelection}) {
   return (
-    <div className="w-30 h-81 bg-red-800 border-3 rounded-r-3xl flex flex-col items-center justify-evenly p-4">      {/* 4 Botones en forma de rombo - Negros */}
+    <div className="w-35 h-96 bg-rose-500 border-3 border-gray-600 rounded-r-3xl flex flex-col items-center justify-evenly p-4">      {/* 4 Botones en forma de rombo - Negros */}
       <div className="flex flex-col items-center gap-2">
         {/* Arriba (X) */}
         <button className="w-8 h-8 bg-black rounded-full hover:bg-gray-800 font-bold text-white text-sm">X</button>
