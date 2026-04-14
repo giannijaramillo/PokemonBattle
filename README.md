@@ -1,10 +1,12 @@
-# 💻 Professional Software Engineering Portfolio
-Mi ecosistema digital como estudiante de ITC del ITESM, diseñado para demostrar la integración de servicios modernos en la nube.
+# 🎮 Nintendo Switch Simulator - Pokémon Edition
+Un simulador interactivo que emula la interfaz de una Nintendo Switch, enfocado en el manejo de estados complejos en React y el consumo dinámico de datos.
 
-## 🛠️ Highlights Técnicos
-* **Cloud Messaging:** Integración de la **API de Resend** mediante Serverless Functions para una gestión de contactos segura y escalable.
-* **Framework:** React con arquitectura de componentes reutilizables.
-* **Deployment:** Pipeline de CI/CD automatizado en **Vercel**.
+## 🛠️ Stack Tecnológico
+* **Frontend:** React + Vite.
+* **Estilizado:** Tailwind CSS (Arquitectura responsiva).
+* **API:** PokeAPI (Consumo asíncrono de datos de combate).
 
-## 🎯 Objetivo
-Servir como un hub centralizado para mis proyectos de ingeniería, demostrando habilidades tanto en UI/UX como en la implementación de APIs de servicios externos.
+## 🚀 Características Principales
+* **Hardware Emulation:** Interfaz diseñada para replicar la experiencia de usuario de la consola física.
+* **Turn-Based Combat:** Lógica de batalla desarrollada con React Hooks (`useState`, `useEffect`) para gestionar turnos, daño y estados de salud.
+* **Dynamic Data:** Fetching de datos en tiempo real para generar encuentros aleatorios con diferentes Pokémon.
