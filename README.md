@@ -1,18 +1,25 @@
-🎮 Nintendo Switch Simulator - Pokémon Edition
-An interactive simulator that emulates the Nintendo Switch user interface, focusing on complex state management in React and dynamic data consumption.
+# 💻 **Professional Software Engineering Portfolio**
 
-🛠️ Tech Stack
-Frontend: React + Vite (Optimized build tool).
+### **The digital ecosystem of an ITC Student @ ITESM**
+Designed to showcase the integration of modern cloud services, high-fidelity custom styling, and professional software architecture.
 
-Styling: Tailwind CSS (Responsive architecture & custom themes).
+---
 
-API: PokeAPI (Asynchronous consumption of real-time combat data).
+## 🛠️ **Technical Highlights**
 
-🚀 Key Features
-Hardware Experience Emulation: Interface meticulously designed to replicate the physical console's user experience and navigation flow.
+* **Cloud Messaging & Serverless**
+    Integration of the **Resend API** through **Serverless Functions** to ensure secure, scalable, and efficient contact management.
+* **Core Architecture**
+    Built with **React**, implementing an atomic component-based structure for maximum reusability and clean code standards.
+* **Custom Engineering (Pure CSS3)**
+    Developed with **Pure CSS3**, utilizing advanced layout techniques (**Flexbox & Grid**) and custom animations to achieve a unique, high-performance visual identity without external UI frameworks.
+* **DevOps & Deployment**
+    Implemented a robust **CI/CD pipeline** via **Vercel** for automated deployments and professional environment variable management.
 
-Turn-Based Battle Mechanics: Complex logic developed using React Hooks (useState, useEffect) to manage game turns, damage calculation, and health state persistence.
+---
 
-Dynamic Data Integration: Real-time fetching to generate randomized encounters, ensuring a unique data-driven experience for every session.
+## 🎯 **Project Objective**
 
-Responsive Engineering: Fully adapted for different screen sizes, maintaining the aspect ratio of the original handheld device.
+To serve as a **centralized engineering hub** for my technical projects, demonstrating proficiency in both core frontend fundamentals and the implementation of external service APIs. 
+
+> This portfolio acts as a live testament to my commitment to building digital solutions that live at the **intersection of design and data**.
