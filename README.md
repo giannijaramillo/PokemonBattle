@@ -1,16 +1,12 @@
-# React + Vite
+# 🎮 Nintendo Switch Simulator - Pokémon Edition
+Un simulador interactivo que emula la interfaz de una Nintendo Switch, enfocado en el manejo de estados complejos en React y el consumo dinámico de datos.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🛠️ Stack Tecnológico
+* **Frontend:** React + Vite.
+* **Estilizado:** Tailwind CSS (Arquitectura responsiva).
+* **API:** PokeAPI (Consumo asíncrono de datos de combate).
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Características Principales
+* **Hardware Emulation:** Interfaz diseñada para replicar la experiencia de usuario de la consola física.
+* **Turn-Based Combat:** Lógica de batalla desarrollada con React Hooks (`useState`, `useEffect`) para gestionar turnos, daño y estados de salud.
+* **Dynamic Data:** Fetching de datos en tiempo real para generar encuentros aleatorios con diferentes Pokémon.
