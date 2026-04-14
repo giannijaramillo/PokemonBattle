@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import battleBg from '../assets/battlebg.png'
 
 function GameScreen({ myPokemon, computerPokemon }) {
   // Función para generar números aleatorios
@@ -94,7 +95,15 @@ function GameScreen({ myPokemon, computerPokemon }) {
   }, [isPlayerTurn, battleEnded, pcHP, enemyMoves]);
 
   return (
-    <div className="w-[42rem] h-96 border-8 border-black bg-gray-800 relative overflow-hidden">
+    <div 
+      className="w-[42rem] h-96 border-8 border-black relative overflow-hidden"
+      style={{
+        backgroundImage: `url(${battleBg})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat'
+      }}
+    >
       {/* HP Player - Superior Izquierda */}
       <div className="absolute top-2 left-8">
         <p className="text-white font-bold capitalize">{myPokemon[0]?.name}</p>
@@ -128,16 +137,16 @@ function GameScreen({ myPokemon, computerPokemon }) {
       </div>
 
       {/* Pokemon del Usuario - Esquina Inferior Izquierda */}
-      <div className="absolute bottom-8 left-8">
+      <div className="absolute -bottom-8 left-8">
         <img 
           src={myPokemon[0]?.sprites?.back_default} 
           alt={myPokemon[0]?.name}
-          className="w-40 h-40"
+          className="w-56 h-56"
         />
       </div>
 
       {/* Pokemon de la PC - Esquina Superior Derecha */}
-      <div className="absolute top-28 right-8">
+      <div className="absolute top-24 right-16">
         <img 
           src={computerPokemon[0]?.sprites?.front_default} 
           alt={computerPokemon[0]?.name}
@@ -145,8 +154,8 @@ function GameScreen({ myPokemon, computerPokemon }) {
         />
       </div>
       {/* Battle Log - Centro */}
-      <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-        <p className="text-white text-lg font-bold bg-gray-900 bg-opacity-70 px-6 py-3 rounded">
+      <div className="absolute top-12 left-1/2 transform -translate-x-1/2 text-center">
+        <p className="text-white text-lg font-bold px-6 py-3 rounded drop-shadow-lg">
           {battleLog}
         </p>
       </div>
