@@ -1,25 +1,32 @@
-# 💻 **Professional Software Engineering Portfolio**
+# Pokemon Battle Simulator - Nintendo Switch UI 🎮
 
-### **The digital ecosystem of an ITC Student @ ITESM**
-Designed to showcase the integration of modern cloud services, high-fidelity custom styling, and professional software architecture.
+A high-fidelity web application that simulates a Nintendo Switch interface, featuring a dynamic Pokémon battle system. This project focuses on **complex state management**, **responsive UI/UX**, and **real-time data integration**.
 
----
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## 🛠️ **Technical Highlights**
+## 🚀 Features
 
-* **Cloud Messaging & Serverless**
-    Integration of the **Resend API** through **Serverless Functions** to ensure secure, scalable, and efficient contact management.
-* **Core Architecture**
-    Built with **React**, implementing an atomic component-based structure for maximum reusability and clean code standards.
-* **Custom Engineering (Pure CSS3)**
-    Developed with **Pure CSS3**, utilizing advanced layout techniques (**Flexbox & Grid**) and custom animations to achieve a unique, high-performance visual identity without external UI frameworks.
-* **DevOps & Deployment**
-    Implemented a robust **CI/CD pipeline** via **Vercel** for automated deployments and professional environment variable management.
+- **High-Fidelity UI:** A pixel-perfect recreation of the Nintendo Switch dashboard and battle menus.
+- **Dynamic Data:** Integration with **PokeAPI** to fetch real-time stats, types, and sprites for any Pokémon.
+- **Battle Logic:** Implemented a turn-based system with HP tracking and status feedback.
+- **Responsive Design:** Fully optimized for mobile, tablet, and desktop views using Tailwind CSS.
+- **Interactive Transitions:** Smooth CSS animations and state-driven UI changes for an immersive experience.
 
----
+## 🛠️ Tech Stack
 
-## 🎯 **Project Objective**
+- **Frontend:** React.js (Hooks, Functional Components)
+- **Styling:** Tailwind CSS (Custom configurations & Grid Layouts)
+- **API:** [PokeAPI](https://pokeapi.co/)
+- **Deployment:** Vercel
 
-To serve as a **centralized engineering hub** for my technical projects, demonstrating proficiency in both core frontend fundamentals and the implementation of external service APIs. 
+## 📸 Preview
 
-> This portfolio acts as a live testament to my commitment to building digital solutions that live at the **intersection of design and data**.
+*(Add a screenshot or a GIF of your project here to make it more attractive!)*
+
+## 🔧 Installation & Setup
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/giannijaramillo/PokemonBattle.git](https://github.com/giannijaramillo/PokemonBattle.git)
