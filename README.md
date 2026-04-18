@@ -19,14 +19,4 @@ A high-fidelity web application that simulates a Nintendo Switch interface, feat
 - **Frontend:** React.js (Hooks, Functional Components)
 - **Styling:** Tailwind CSS (Custom configurations & Grid Layouts)
 - **API:** [PokeAPI](https://pokeapi.co/)
-- **Deployment:** Vercel
 
-## 📸 Preview
-
-*(Add a screenshot or a GIF of your project here to make it more attractive!)*
-
-## 🔧 Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/giannijaramillo/PokemonBattle.git](https://github.com/giannijaramillo/PokemonBattle.git)
